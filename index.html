@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habesha Archive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>📜 Habesha Archive</h1>
+
+  <input
+    type="text"
+    id="title"
+    placeholder="የታሪክ ርዕስ">
+
+  <textarea
+    id="story"
+    placeholder="ታሪክህን እዚህ ፃፍ..."></textarea>
+
+  <input
+    type="file"
+    id="image"
+    accept="image/*">
+
+  <button onclick="saveStory()">
+    💾 አስቀምጥ
+  </button>
+
+  <h2>የተቀመጡ ታሪኮች</h2>
+
+  <div id="stories"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
